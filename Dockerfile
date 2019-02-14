@@ -1,4 +1,4 @@
-FROM python:3.6-slim-stretch
+FROM arm32v7/python:3.7.2-stretch
 
 COPY . /app
 WORKDIR /app
